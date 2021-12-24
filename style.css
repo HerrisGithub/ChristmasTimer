@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('http://www.pptbackgrounds.org/uploads/xmas-white-backgrounds-wallpapers.jpg');
+    background-image: url(bg.jpeg);
     background-size: cover;
     background-position: center center;
 
