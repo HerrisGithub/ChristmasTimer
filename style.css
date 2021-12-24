@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap');
+
+
+* {
+    box-sizing: border box
+}
+
+body {
+    background-image: url('http://www.pptbackgrounds.org/uploads/xmas-white-backgrounds-wallpapers.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    
+    margin: 0;
+    color: red;
+
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+}
+
+.coundown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+
+}
+
+.countdown-el span{
+    font-size: 1.8rem;
+}
